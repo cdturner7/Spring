@@ -21,7 +21,7 @@
     </dependencies>
 
     <build>
-    	<finalName>my_spring</finalName>
+    	<finalName>spring</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -33,15 +33,6 @@
                         <source>1.6</source>
                         <target>1.6</target>
                         <showWarnings>true</showWarnings>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.tomcat.maven</groupId>
-                    <artifactId>tomcat7-maven-plugin</artifactId>
-                    <version>2.2</version>
-                    <configuration>
-                        <path>/</path>
-                        <contextReloadable>true</contextReloadable>
                     </configuration>
                 </plugin>
             </plugins>
