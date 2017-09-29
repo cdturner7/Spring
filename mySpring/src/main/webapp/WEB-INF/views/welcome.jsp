@@ -1,7 +1,7 @@
 <html> 
 <%@ include file = "header.jsp" %>
 	<body>
-		<h1 style="margin:auto;">
+		<h1>
 			Welcome ${name}
 		</h1>
 	</body>

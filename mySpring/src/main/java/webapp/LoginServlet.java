@@ -1,4 +1,4 @@
-package com.jee;
+package webapp;
 
 import java.io.IOException;
 
@@ -17,6 +17,8 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws IOException, ServletException {
+		System.out.println("In Get");
+		
 		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(
 				request, response);
 	}
@@ -24,6 +26,8 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws IOException, ServletException {
+		System.out.println("In Post");
+		
 		String name = request.getParameter("name");
 		String password = request.getParameter("password");
 
