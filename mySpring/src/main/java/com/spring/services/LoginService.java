@@ -1,4 +1,4 @@
-package com.spring.jee;
+package com.spring.services;
 
 public class LoginService {
 	public boolean validateUser(String user, String password) {
