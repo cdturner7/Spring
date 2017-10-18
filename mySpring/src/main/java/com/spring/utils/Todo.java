@@ -1,4 +1,4 @@
-package com.spring.helpers;
+package com.spring.utils;
 
 import java.util.Date;
 

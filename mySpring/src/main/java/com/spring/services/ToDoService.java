@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.spring.helpers.Todo;
+import com.spring.utils.Todo;
 
 @Service
 public class ToDoService {
